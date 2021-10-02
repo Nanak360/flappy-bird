@@ -1,0 +1,22 @@
+body {
+  background: lightblue;
+}
+#bird {
+  border: 1px solid black;
+  display: block;
+  /* font-family: "Russo One", sans-serif; */
+}
+#logo{
+  display: block;
+  margin: auto;
+  padding-bottom: 10px;
+  padding-top: 0px
+}
+#container{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin: 1px solid black;
+}
